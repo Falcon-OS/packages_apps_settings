@@ -22,7 +22,7 @@
 
     <!-- Falcon Version -->
     <string name="aosip_version">Falcon Build</string>
-    <string name+"about_device_name">Device Codename</string>
+    <string name="about_device_name">Device Codename</string>
     <string name="theme_category">Theming</string>
     <string name="theme_select_title">Themes</string>
     <string name="theme_select_summary">Browse and select installed themes</string>
