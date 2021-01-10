@@ -22,7 +22,7 @@
 
     <!-- Falcon Version -->
     <string name="aosip_version">Falcon Build</string>
-
+    <string name+"about_device_name">Device Codename</string>
     <string name="theme_category">Theming</string>
     <string name="theme_select_title">Themes</string>
     <string name="theme_select_summary">Browse and select installed themes</string>
@@ -139,5 +139,10 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- About phone cards -->
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Occupied</string>
+    <string name="about_device_rom_title">Falcon OS</string>
 
 </resources>
