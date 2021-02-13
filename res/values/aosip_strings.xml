@@ -153,4 +153,9 @@
     <string name="storage_card_info">Occupied</string>
     <string name="about_device_rom_title">Falcon OS</string>
 
+    <!-- About Phone screen, Maintainer Name -->
+    <string name="maintainer_name">Maintainer</string>
+    <string name="maintainer_name_default">Team Falcon</string>
+    <string name="keywords_maintainer_name">Maintainer Name</string>
+
 </resources>

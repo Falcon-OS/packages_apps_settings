@@ -54,6 +54,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AOSiPVersionPreferenceController"/>
 
+    <!-- Maintainer Name -->
+    <Preference
+        android:key="maintainer_name"
+        android:title="@string/maintainer_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+	settings:controller="com.android.settings.deviceinfo.firmwareversion.maintainernamePreferenceController"/>
+
     <!-- Baseband -->
     <Preference
         android:key="base_band"
