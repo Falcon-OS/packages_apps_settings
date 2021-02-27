@@ -243,4 +243,7 @@ public class Settings extends SettingsActivity {
     // AOSiP Settings
     public static class OwlsNestSettingsActivity extends SettingsActivity {}
     public static class StartThemesActivity extends SettingsActivity {}
+
+    // Gaming mode
+    public static class GamingModeActivity extends SettingsActivity {}
 }

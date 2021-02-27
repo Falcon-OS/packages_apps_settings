@@ -160,6 +160,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
+import com.aosip.owlsnest.fragments.GamingMode;
 
 import com.aosip.owlsnest.OwlsNestSettings;
 
@@ -312,7 +313,8 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             OwlsNestSettings.class.getName(),
-            StartThemes.class.getName()
+            StartThemes.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -354,5 +356,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             // AOSiP
             Settings.OwlsNestSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName()
     };
 }
