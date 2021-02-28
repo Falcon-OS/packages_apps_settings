@@ -158,4 +158,7 @@
     <string name="maintainer_name_default">Team Falcon</string>
     <string name="keywords_maintainer_name">Maintainer Name</string>
 
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
 </resources>
