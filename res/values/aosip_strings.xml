@@ -62,7 +62,7 @@
     <string name="density_category">Density options</string>
 
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_title">FalconOS Updater</string>
     <string name="update_settings_summary">Check for the latest version of the rom</string>
     <string name="update_package" translatable="false">org.lineageos.updater</string>
     <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
@@ -153,6 +153,7 @@
     <string name="right_swipe_app_action_title">Select long right swipe app</string>
     <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
     <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+
     <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
     <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
     <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
