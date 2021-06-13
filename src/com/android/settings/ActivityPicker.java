@@ -16,6 +16,8 @@
 
 package com.android.settings;
 
+import static android.view.WindowManager.LayoutParams.SYSTEM_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -57,23 +59,25 @@ import java.util.List;
  */
 public class ActivityPicker extends AlertActivity implements
         DialogInterface.OnClickListener, DialogInterface.OnCancelListener {
-    
+
     /**
      * Adapter of items that are displayed in this dialog.
      */
     private PickAdapter mAdapter;
-    
+
     /**
      * Base {@link Intent} used when building list.
      */
     private Intent mBaseIntent;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
+        getWindow().addPrivateFlags(SYSTEM_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS);
+
         final Intent intent = getIntent();
-        
+
         // Read base intent from extras, otherwise assume default
         Parcelable parcel = intent.getParcelableExtra(Intent.EXTRA_INTENT);
         if (parcel instanceof Intent) {
